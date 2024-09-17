@@ -28,3 +28,30 @@ This Python script simulates the behavior of an Automated Market Maker (AMM) on 
    git clone https://github.com/Jaseempk/amm_simulations.git
    cd amm_simulations
    ```
+
+2. **Install the required packages:**
+
+   ```bash
+   pip install requests pandas numpy web3
+   ```
+
+## Configuration
+
+Modify the script to include your specific pool ID, fee tiers, and liquidity positions as needed. The script is currently configured for the ETH/USDC 0.3% pool on Ethereum Mainnet.
+
+## Usage
+
+1. **Update the Pool ID and other parameters in the `main()` function as required.**
+
+2. **Run the script:**
+
+   ```bash
+   python amm_simulations.py
+   ```
+
+   The script will:
+
+   - Fetch pool and swap data.
+   - Simulate AMM behavior with different fee adjustment values (`c`).
+   - Print results for negative fees, liquidity provider returns, and price efficiency.
+   - Identify the optimal value of `c` based on the results.
