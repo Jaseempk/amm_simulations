@@ -5,7 +5,7 @@ from decimal import Decimal
 from web3 import Web3
 
 # Constants
-SUBGRAPH_URL = "https://gateway.thegraph.com/api/<api-key>/subgraphs/id/5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV"
+SUBGRAPH_URL = "https://gateway.thegraph.com/api/<>/subgraphs/id/5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV"
 MIN_TICK = -887272
 MAX_TICK = 887272
 Q96 = 2**96
